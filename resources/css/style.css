@@ -1,0 +1,84 @@
+/* Page Style */
+
+body{
+  font-family: helvetica;
+  font-size:16px;
+  width: 100%;
+  height: 100%;
+  color: black;
+  background-color: #D9D0DE;
+}
+
+/* Header content Style */
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  padding: 0 24px;
+}
+
+.logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  line-height: 32px;
+}
+
+header nav{
+  display: block;
+}
+
+/* Main Content Style */
+.content{
+
+}
+
+.learn-something{
+  display: flex;
+  padding: 2rem 0;
+  background-color: #BC8DA0;
+  border: 1px solid black;
+}
+
+.image{
+  margin: 32px 24px;
+  width: 60%;
+}
+
+.image img{
+  height: auto;
+  width: 100%;
+}
+
+.learn-something .learn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+}
+
+.learn h1{
+  font-family: helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.
+
+.start-button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/* Footer Style */
