@@ -33,7 +33,7 @@ header nav{
 
 /* Main Content Style */
 .content{
-
+  width: 80%;
 }
 
 .learn-something{
@@ -67,10 +67,12 @@ header nav{
   margin-bottom: 2rem;
 }
 
-.
+.learn h2{
 
-.start-button{
-    background-color: #4CAF50; /* Green */
+}
+
+#start-button{
+    background-color: #9A7483;
     border: none;
     border-radius: 0.5rem;
     color: white;
@@ -79,6 +81,7 @@ header nav{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    width: 50%
 }
 
 /* Footer Style */
