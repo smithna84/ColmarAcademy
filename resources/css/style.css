@@ -27,14 +27,21 @@ header{
   line-height: 32px;
 }
 
-header nav{
+.navigation{
   display: block;
+}
+
+.navigation a{
+  decoration: none;
 }
 
 /* Main Content Style */
 .content{
   width: 80%;
+  margin: 0 7.5rem;
 }
+
+/* Learn Section Style */
 
 .learn-something{
   display: flex;
@@ -43,12 +50,12 @@ header nav{
   border: 1px solid black;
 }
 
-.image, .keep-practicing{
-  margin: 32px 24px;
+.image{
+  margin: 2rem 1.5rem;
   width: 60%;
 }
 
-.image img, .keep-practicing{
+.image img{
   height: auto;
   width: 100%;
 }
@@ -71,8 +78,47 @@ header nav{
 
 }
 
-.practicing{
+#start-button{
+    background-color: #9A7483;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 50%;
+}
 
+#start-button:hover{
+  background-color: #D6EADF;
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 50%;
+}
+
+/* Practicing Section Style */
+
+.practicing{
+  display: flex;
+  padding: 2rem 0;
+  border: 1px solid blue;
+}
+
+.keep-practicing{
+  display: flex;
+  flex-direction: column;
+}
+
+.text{
+  margin:0 1.5rem;
 }
 
 .text h1{
@@ -86,20 +132,94 @@ header nav{
 
 }
 .text span{
-
+font-weight: bold;
 }
 
-#start-button{
-    background-color: #9A7483;
-    border: none;
-    border-radius: 0.5rem;
-    color: white;
-    padding: 8px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    width: 50%
+.practicing .sub-practicing{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
 }
+
+.info-container{
+  display: flex;
+  justify-content: center;
+}
+
+.image-container{
+  width: 35%;
+  padding: 1rem;
+}
+
+.image-container{
+  overflow: hidden;
+}
+
+.info-container .right-text{
+  justify-content: center;
+  width: 65%;
+}
+
+.info-container .right-text{
+  display: flex;
+  flex-direction: column;
+}
+
+/* Start Learning Section Style */
+
+.start-learning{
+  border: 1px solid green;
+}
+
+.start-learning h1{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 2rem 0;
+}
+
+.courses{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.first-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.second-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.course{
+  width: 100%;
+}
+
+.courses img{
+  height: auto;
+  width: 60%;
+  margin: 10px;
+  display: block;
+}
+
+.start-learning h2{
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.start-learning h3{
+  font-size: 1rem;
+}
+
+.start-learning p{
+  font-size: 1rem;
+}
+
+
 
 /* Footer Style */
