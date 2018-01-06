@@ -18,7 +18,7 @@ header{
   height: 64px;
   padding: 0 24px;
   margin-right: 1rem;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #BC8DA0;
 }
 
 .logo{
@@ -29,6 +29,10 @@ header{
   line-height: 2rem;
 }
 
+.logo span:last-child{
+  color: firebrick;
+}
+
 .navigation{
   display: block;
 }
@@ -37,6 +41,28 @@ header{
   decoration: none;
   margin: 0 0.5rem;
 }
+
+.mobile-menu{
+  height: 4rem;
+}
+
+@media only screen and (max-width: 480px){
+  .mobile-menu{
+    display: block;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .mobile-hide{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 3000px){
+  .mobile-menu{
+    display: none;
+  }
+}
+
 
 /* Main Content Style */
 .content{
@@ -101,15 +127,15 @@ h2{
 }
 
 #main h1{
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
-#main .learn h2{
+#main p{
 margin-bottom: 1.5rem;
 }
 
 #start-button{
-    background-color: #9A7483;
+    background-color: #963D5A;
     border-radius: 0.5rem;
     color: white;
     padding: 8px;
@@ -144,7 +170,8 @@ margin-bottom: 1.5rem;
   font-family: Merriweather, serif;
   font-size: 1.5rem;
   font-weight: bold;
-  margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .text p{
