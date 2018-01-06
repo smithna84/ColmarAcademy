@@ -38,22 +38,50 @@ header{
 
 /* Main Content Style */
 .content{
-  width: 80%;
-  margin: 0 7.5rem;
+  position: relative;
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1050px;
+  margin: auto;
+}
+
+.banner{
+  display: flex;
+  padding: 2rem 0;
+  border: 1px solid blue;
+}
+
+.text{
+  margin:0 1.5rem;
+}
+
+h1{
+  font-family: helvetica;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h2{
+  font-family: helvetica;
+  font-size: 1.5rem;
+  line-height: 1.2;
 }
 
 /* Learn Section Style */
 
-.learn-something{
-  display: flex;
-  padding: 2rem 0;
+#main{
   background-color: #BC8DA0;
-  border: 1px solid black;
+}
+
+.banner .left{
+  margin: 2rem 1.5rem;
+  width: 60%;
 }
 
 .image{
-  margin: 2rem 1.5rem;
-  width: 60%;
+  overflow: hidden;
 }
 
 .image img{
@@ -61,27 +89,26 @@ header{
   width: 100%;
 }
 
-.learn-something .learn{
+#main .learn{
+  justify-content: center;
+}
+
+.banner .learn{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   width: 40%;
 }
 
-.learn h1{
-  font-family: helvetica;
-  font-size: 32px;
-  font-weight: bold;
+#main h1{
   margin-bottom: 2rem;
 }
 
-.learn h2{
-
+#main h2{
+margin-bottom: 1.5rem;
 }
 
 #start-button{
     background-color: #9A7483;
-    border: none;
     border-radius: 0.5rem;
     color: white;
     padding: 8px;
@@ -107,19 +134,9 @@ header{
 
 /* Practicing Section Style */
 
-.banner{
-  display: flex;
-  padding: 2rem 0;
-  border: 1px solid blue;
-}
-
 .left{
   display: flex;
   flex-direction: column;
-}
-
-.text{
-  margin:0 1.5rem;
 }
 
 .text h1{
@@ -241,11 +258,7 @@ font-weight: bold;
   margin: 2rem 0;
 }
 
-h1{
-  font-family: helvetica;
-  font-size: 2rem;
-  font-weight: bold;
-}
+
 
 #thesis .thesis-content{
   display: flex;
