@@ -17,6 +17,7 @@ header{
   align-items: center;
   height: 64px;
   padding: 0 24px;
+  border-bottom: 1px solid black;
 }
 
 .logo{
@@ -106,13 +107,13 @@ header{
 
 /* Practicing Section Style */
 
-.practicing{
+.banner{
   display: flex;
   padding: 2rem 0;
   border: 1px solid blue;
 }
 
-.keep-practicing{
+.left{
   display: flex;
   flex-direction: column;
 }
@@ -135,7 +136,7 @@ header{
 font-weight: bold;
 }
 
-.practicing .sub-practicing{
+.banner.right{
   display: flex;
   flex-direction: column;
   width: 40%;
@@ -148,7 +149,7 @@ font-weight: bold;
 
 .image-container{
   width: 35%;
-  padding: 1rem;
+  margin: 1rem;
 }
 
 .image-container{
@@ -167,11 +168,12 @@ font-weight: bold;
 
 /* Start Learning Section Style */
 
-.start-learning{
+#start-learning{
+  background-color: #BC8DA0;
   border: 1px solid green;
 }
 
-.start-learning h1{
+#start-learning h1{
   text-align: center;
   font-size: 2rem;
   font-weight: bold;
@@ -182,6 +184,7 @@ font-weight: bold;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 0 3.5rem 0 3.5rem;
 }
 
 .first-row{
@@ -198,28 +201,65 @@ font-weight: bold;
 
 .course{
   width: 100%;
+  margin: 0 1rem 2rem 1rem;
+  background-color: #D9D0DE
 }
 
 .courses img{
   height: auto;
-  width: 60%;
-  margin: 10px;
+  width: 100%;
   display: block;
 }
 
-.start-learning h2{
+.details{
+  margin: 1rem 0 1.5rem 1rem;
+}
+
+#start-learning h2{
   font-size: 1.25rem;
   font-weight: bold;
 }
 
-.start-learning h3{
+#start-learning h3{
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+#start-learning p{
   font-size: 1rem;
 }
 
-.start-learning p{
-  font-size: 1rem;
+/* Thesis Section Style */
+
+#thesis{
+  display: flex;
+  flex-direction: column;
 }
 
+#thesis .title{
+  text-align: center;
+  margin: 2rem 0;
+}
 
+h1{
+  font-family: helvetica;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#thesis .thesis-content{
+  display: flex;
+  flex-direction: row;
+}
+
+#thesis .left{
+  display: flex;
+  flex-direction: column;
+  width 60%;
+}
+
+#thesis video{
+width: 100%;
+}
 
 /* Footer Style */
