@@ -357,7 +357,7 @@ a{
 
 /* Media Query for Mobile */
 
-@media only screen and (max-width: 1080px){
+@media only screen and (max-width: 480px){
 .show{
   display: flex;
   position: relative;
