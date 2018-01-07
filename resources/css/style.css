@@ -35,7 +35,6 @@ header{
   justify-content: space-between;
   width: 100%;
   margin: 0 1.5rem;
-  border: 1px solid orange;
 }
 
 .logo{
@@ -326,6 +325,7 @@ footer{
   margin: 1rem 0 2rem 1.5rem;
   width: 100%;
   font-size: 0.8rem;
+  border: 1px solid blue;
 }
 
 footer p{
@@ -340,6 +340,7 @@ p{
 
 nav{
   margin-right: 1.5rem;
+  border: 1px solid yellow;
 }
 
 ul{
@@ -379,6 +380,9 @@ a{
   opacity: 1;
 }
 .content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   max-width: 580px;
 }
 #main{
@@ -386,6 +390,7 @@ a{
   flex-direction: column;
   align-items: center;
   width: 100%;
+  margin: 1rem;
 }
 #main .left{
   width: 100%;
@@ -431,7 +436,32 @@ a{
 .right .info-container .image{
   width: 100%;
 }
-.image img{
-
+.courses .first-row,
+.courses .second-row{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.course{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.course img,
+.course h3,
+.course p{
+  display: none;
+}
+#thesis .banner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#thesis .right{
+  display: none;
+}
+footer .mobile-hide{
+  display: none;
 }
 }
